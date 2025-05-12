@@ -6,7 +6,8 @@ from typing import Dict, List
 
 
 class Server:
-    """Blueprint for a Server instance to paginate a database of popular baby names.
+    """Blueprint for a Server instance to
+    paginate a database of popula baby names.
     """
     DATA_FILE = "Popular_Baby_Names.csv"
 
