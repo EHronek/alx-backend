@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+"""Basic Babel setup"""
 from flask_babel import Babel
 from flask import Flask, render_template
+
 
 class Config:
     """BLueprint for Config to represent babel configuration"""
