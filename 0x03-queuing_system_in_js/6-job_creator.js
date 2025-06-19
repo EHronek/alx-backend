@@ -1,10 +1,10 @@
 #!/usr/bin/yarn dev
 import { createQueue } from 'kue';
 
-const queue = createQueue({name: 'push_notification'});
+const queue = createQueue({name: 'push_notification_code'});
 
 const job = queue.create('push_notification_code', {
-    phoneNumber: '0708639033',
+    phoneNumber: '0798039033',
     message: 'Account registered',
 });
 
